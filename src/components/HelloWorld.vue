@@ -3,16 +3,16 @@
     <span style="font-size: 3vh; color: #aaaaaa;"> Bharath Ganesh</span>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">Elden ring is a game developed by bandai namco and from software released in 2022. It is one of the most acclaimed game</div><a href="#" class="moreinfo"><div class="growing-dot"></div> more</a></div>
-    <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png"/></div>
+    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><a href="#" class="moreinfo"><div class="growing-dot"></div> More</a></div>
+    <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">Elden ring is a game developed by bandai namco and from software released in 2022. It is one of the most acclaimed game</div><a href="#" class="moreinfo"><div class="growing-dot"></div> more</a></div>
-    <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png"/></div>
+    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><a href="#" class="moreinfo"><div class="growing-dot"></div> More</a></div>
+    <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">Elden ring is a game developed by bandai namco and from software released in 2022. It is one of the most acclaimed game</div><a href="#" class="moreinfo"><div class="growing-dot"></div> more</a></div>
-    <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png"/></div>
+    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><a href="#" class="moreinfo"><div class="growing-dot"></div> More</a></div>
+    <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
 </template>
 
@@ -102,6 +102,8 @@ export default {
   font-size: 2vmin;
   text-align: left;
   font-weight: 200;
+  font-size: 1.2vmin ;
+  line-height: 2.5vmin;
 }
 
 .moreinfo
@@ -112,6 +114,7 @@ export default {
   font-size: 2vmin;
   text-decoration: none;
   color: white;
+  transition: all 0.5s ease;
 }
 
 .moreinfo:hover
