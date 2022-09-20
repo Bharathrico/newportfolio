@@ -180,6 +180,11 @@ By interviewing different owners, we learned that trading dog sitting duties wit
   {
     padding-bottom: 5vmin;
   }
+
+  .moreinfo
+    {
+      font-size: 1.5vmax;
+    }
   }
   </style>
   

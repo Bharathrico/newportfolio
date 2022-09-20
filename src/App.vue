@@ -1,17 +1,20 @@
 <template>
   <!-- <HelloWorld/> -->
-  <Projectpage/>
+  <!-- <Projectpage/> -->
+  <OtherWorks/>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import Projectpage from './components/ProjectPage.vue'
+// import Projectpage from './components/ProjectPage.vue'
+import OtherWorks from './components/OtherWorks.vue';
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    Projectpage
+    // Projectpage
+    OtherWorks,
 }
 }
 </script>
