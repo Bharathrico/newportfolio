@@ -1,7 +1,7 @@
 <template>
-    <div class="backbutton"><a href="#" class="moreinfo">← Back</a></div>
-    <div class="work"><div class="topic">Program</div><div class="imageslab"> <img width="100%" src="../assets/eldenringposter.png" alt="imageslab"/></div></div>
-    <div class="backbutton"><a href="#" class="moreinfo">← Back</a></div>
+    <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
+    <div class="work"><div class="topic">Program</div><div class="imageslab"> <img src="../assets/eldenringposter.png" alt="imageslab"/></div></div>
+    <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
     <div class="base"></div>
   </template>
   
@@ -43,6 +43,10 @@
   transition: all 0.5s ease;
 }
 
+img
+{
+  width: 100%;
+}
 .backbutton
 {
   width: 60vw;

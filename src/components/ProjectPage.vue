@@ -1,5 +1,5 @@
 <template>
-    <div class="backbutton"><a href="#" class="moreinfo">← Back</a></div>
+    <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
     <div class="title">
       <span style="font-size: 3vh;"> Elden Ring </span>
     </div>
@@ -33,7 +33,7 @@ By interviewing different owners, we learned that trading dog sitting duties wit
 By interviewing different owners, we learned that trading dog sitting duties with another local owner is the most comfortable solution. But due to the lack of connections, the pet sitting problem is most salient among newly-became and newly-moved dog owners. On the other hand, experienced local owners also have trouble expanding their limited connections.
       </div>
     </div>
-    <div class="backbutton"><a href="#" class="moreinfo">← Back</a></div>
+    <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
     <div class="base"></div>
   </template>
   

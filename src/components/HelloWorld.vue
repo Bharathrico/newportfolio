@@ -3,15 +3,15 @@
     <span style="font-size: 3vh; color: #aaaaaa;"> Bharath Ganesh</span>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><a href="#" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</a></div>
+    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
     <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><a href="#" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</a></div>
+    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><router-link to="/project" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
     <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><a href="#" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</a></div>
+    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
     <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
 </template>
