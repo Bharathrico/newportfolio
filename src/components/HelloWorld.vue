@@ -3,15 +3,15 @@
     <span style="font-size: 3vh; color: #aaaaaa;"> Bharath Ganesh</span>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><a href="#" class="moreinfo"><div class="growing-dot"></div> More</a></div>
+    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><a href="#" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</a></div>
     <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><a href="#" class="moreinfo"><div class="growing-dot"></div> More</a></div>
+    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><a href="#" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</a></div>
     <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><a href="#" class="moreinfo"><div class="growing-dot"></div> More</a></div>
+    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><a href="#" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</a></div>
     <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
 </template>
@@ -25,12 +25,24 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.static-dot
+{
+  width: 1vmin;
+  height: 1vmin;
+  border-radius: 100%;
+  margin-right: 1vmin;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .growing-dot
 {
   border-radius: 100%;
-  margin-right: 1vmin;
-  width: 1vmin;
-  height: 1vmin;
+  
+  width: 0.8vmin;
+  height: 0.8vmin;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,9 +63,9 @@ export default {
 
   100%
   {
-    scale: 1.5;
+    scale: 2;
     opacity: 0;
-     box-shadow:0 0 0px 5px white;
+     box-shadow:0 0 0px 2px white;
   }
 }
 .projectname
@@ -147,7 +159,7 @@ export default {
   flex-direction: column;
   align-items:center;
   justify-content: space-between;
-  height: 40vh;
+  height: 50vh;
 }
 .imagespace
 {
@@ -163,7 +175,8 @@ export default {
 .info
 {
   padding-top: 0.5vh;
-  font-size: 4vmin;
+  font-size: 1.2vmax;
+  line-height: 1.5vmax;
   text-align: left;
 }
 .moreinfo
@@ -178,7 +191,12 @@ export default {
 }
 .growing-dot
 {
-   margin-right: 1vmax;
+  width: 1vmax;
+  height: 1vmax;
+}
+.static-dot
+{
+  margin-right: 1vmax;
   width: 1vmax;
   height: 1vmax;
 }
