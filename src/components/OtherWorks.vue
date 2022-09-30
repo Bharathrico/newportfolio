@@ -1,6 +1,7 @@
 <template>
     <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
-    <div class="work"><div class="topic">Program</div><div class="imageslab"> <img src="../assets/eldenringposter.png" alt="imageslab"/></div></div>
+    <div class="work"><div class="topic">Abstract Arts</div><div class="caption">Experimented and created abstract art in blender tool</div><div class="imageslab"> <img src="../assets/abstract.gif" alt="imageslab"/></div></div>
+    <div class="work"><div class="topic">Abstract Arts</div><div class="caption">Experimented and created abstract art in blender tool</div><div class="imageslab"> <img src="../assets/abstract.gif" alt="imageslab"/></div></div>
     <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
     <div class="base"></div>
   </template>
@@ -8,6 +9,9 @@
   <script>
   export default {
     name: 'OtherWorks',
+    created() {
+    window.scrollTo(0,0)
+  }
   }
   </script>
   
@@ -23,6 +27,16 @@
     justify-content: space-between;
     flex-direction: column;
     margin-top: 4vh;
+  }
+  .caption
+  {
+    width: 100%;
+    display: flex;
+    /* background-color: aliceblue; */
+    margin-bottom: 2vh;
+    align-items: left;
+    text-align: left;
+    color: rgb(201, 201, 201);
   }
   .base
   {
@@ -68,6 +82,10 @@ img
   font-size: 2.5vmin;
   margin-bottom: 2vh;
 }
+img
+{
+  border-radius: 2%;
+}
 .imageslab
 {
   width: 100%;
@@ -78,6 +96,15 @@ img
     .moreinfo
     {
       font-size: 1.5vmax;
+    }
+    .topic
+    {
+      font-size: 1.6vmax;
+    }
+    .caption
+    {
+      margin-bottom: ;
+      font-size: 1vmax;
     }
   }
   </style>

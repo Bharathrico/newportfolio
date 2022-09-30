@@ -19,6 +19,9 @@
 <script>
 export default {
   name: 'HelloWorld',
+  created() {
+    window.scrollTo(0,0)
+  }
 }
 </script>
 

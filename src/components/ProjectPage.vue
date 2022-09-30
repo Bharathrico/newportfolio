@@ -40,6 +40,9 @@ By interviewing different owners, we learned that trading dog sitting duties wit
   <script>
   export default {
     name: 'ProjectPage',
+    created() {
+    window.scrollTo(0,0)
+  }
   }
   </script>
   
