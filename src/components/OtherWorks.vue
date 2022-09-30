@@ -103,7 +103,7 @@ img
     }
     .caption
     {
-      margin-bottom: ;
+      margin-bottom: 1vh;
       font-size: 1vmax;
     }
   }
