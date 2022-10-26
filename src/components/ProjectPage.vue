@@ -1,7 +1,7 @@
 <template>
     <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
     <div class="title">
-      <span style="font-size: 3vh;"> Elden Ring </span>
+      <span style="font-size: 3vh;"> Grocer Street </span>
     </div>
     <div class="info">
       <div class="location">Winter 2016<br/>
@@ -13,9 +13,7 @@ Personal Project in 2 Months</div>
 By interviewing different owners, we learned that trading dog sitting duties with another local owner is the most comfortable solution. But due to the lack of connections, the pet sitting problem is most salient among newly-became and newly-moved dog owners. On the other hand, experienced local owners also have trouble expanding their limited connections.
       </div>
     </div>
-    <div class="image-slab">
-      <img width="100%" src="../assets/eldenringposter.png" alt="imageslab">
-    </div>
+      <img class="image-slab" width="100%" src="../assets/grocer/grocerstreetpage1.png" alt="imageslab">
     <div class="info">
       <div class="topic">Proposal</div>
       <div class="newinfo">
@@ -23,9 +21,7 @@ By interviewing different owners, we learned that trading dog sitting duties wit
 By interviewing different owners, we learned that trading dog sitting duties with another local owner is the most comfortable solution. But due to the lack of connections, the pet sitting problem is most salient among newly-became and newly-moved dog owners. On the other hand, experienced local owners also have trouble expanding their limited connections.
       </div>
     </div>
-    <div class="image-slab">
-      <img width="100%" src="../assets/eldenringposter.png" alt="imageslab">
-    </div>
+      <img class="image-slab" width="100%" src="../assets/eldenringposter.png" alt="imageslab">
     <div class="info">
       <div class="topic">Proposal</div>
       <div class="newinfo">
@@ -147,6 +143,8 @@ By interviewing different owners, we learned that trading dog sitting duties wit
     overflow: hidden;
     width: 60vw;
     height: auto;
+    margin: 0;
+    padding: 0;
     /* padding-bottom: 3vh; */
     border-radius: 2vmin;
   }  
