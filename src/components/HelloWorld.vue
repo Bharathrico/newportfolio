@@ -7,12 +7,15 @@
     <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><router-link to="/project" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
+    <div class="textspace"><div class="topic">Grocer Street</div><div class="info"></div><router-link to="/project" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
     <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
   <div class="card">
     <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
     <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
+  </div>
+  <div class="about-card">
+    <router-link to="/about" class="moreinfo"> About</router-link>
   </div>
 </template>
 
@@ -27,6 +30,18 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+.about-card
+{
+  width: 100%;
+  height: 20vh;
+  font-size: 1.5vmax;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  color: white;
+  font-weight: 500;
+}
 
 .static-dot
 {
@@ -73,6 +88,7 @@ export default {
 }
 .projectname
 {
+  margin-top: 10vh;
   width: 60vw;
   padding-top: 5vh;
   padding-bottom: 5vh;
@@ -151,6 +167,7 @@ export default {
   .projectname
 {
    width: 80vw;
+   margin-top: 5vh;
 }
 .card
 {
@@ -202,6 +219,11 @@ export default {
   margin-right: 1vmax;
   width: 1vmax;
   height: 1vmax;
+}
+.about-card
+{
+  height: 10vh;
+  margin-bottom: 4vh;
 }
 }
 </style>

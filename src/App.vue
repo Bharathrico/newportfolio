@@ -17,7 +17,7 @@ body
   height: 100%;
   padding: 0;
   margin: 0;
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(43, 43, 43);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,6 +29,6 @@ body
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
