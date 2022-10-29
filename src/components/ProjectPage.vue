@@ -7,27 +7,33 @@
     <div class="info">
       <div class="location">Winter 2022<br/>
 Associated With Deepak Praveen<br/>
-User Interface Design<br/>
+User Interface and User Experience researcher<br/>
 Personal Project in 2 Months</div>
+      <div class="newinfo">
+        Grocer Street is an application that serves both vendors and consumers in improving the grocery purchasing experience by delivering features that are blended with the real-world shopping experience. Any fruit or vegetable that a customer purchases using this application will have their involvement, enhancing their shopping experience. In this project, I worked as a UI/UX researcher and designer, with my partner assisting me with brainstorming and user flow.
+      </div>
+    </div>
+      <img class="image-slab" width="100%" src="../assets/grocer/grocerstreetpage1.png" alt="imageslab">
+    <div class="info">
+      <div class="topic">Problem statement</div>
       <div class="newinfo">
         There are online shopping applications for purchasing groceries with price tags, but there are also offline vendors who sell at your door or on the street. Given that the application would manage their distribution and management features, an application to sell their items online at the price they specify will help them grow and expand their business.<br/><br/>
         In order to identify the issues with the current apps and what they needed, we conducted interviews with people who have had a variety of work experiences. We realised that in-person supermarket shopping is preferable to pre-packaged delivery. We addressed this issue by offering hand-selected groceries at the door. Meanwhile, we discovered that most vendors lack the resources necessary to launch an online store. Without any issues, we were able to implement facilities that will help them.
       </div>
     </div>
-      <img class="image-slab" width="100%" src="../assets/grocer/grocerstreetpage1.png" alt="imageslab">
+      <img class="image-slab" width="100%" src="../assets/grocer/grocerillus.png" alt="imageslab">
     <div class="info">
-      <div class="topic">Proposal</div>
+      <div class="topic">Research</div>
       <div class="newinfo">
-        We noticed dog owners usually have a problem finding pet sitters when they have travel plans. As an exploratory research, we interviewed pet owners to confirm the problem and learn about their pain-points in general.<br/><br/>
-By interviewing different owners, we learned that trading dog sitting duties with another local owner is the most comfortable solution. But due to the lack of connections, the pet sitting problem is most salient among newly-became and newly-moved dog owners. On the other hand, experienced local owners also have trouble expanding their limited connections.
+        This improved our project toward pleasing the customer, even if he still considers internet shopping. We conducted secondary research on blogs and forums to learn more about the viewpoint of vendors. The results showed that vendors want to have some flexibility when it comes to third-party applications, such as when it comes to payment and delivery options.<br/><br/>
+        According to the data, people favour an easy-to-use buying process over one that requires more effort. Customers also displayed some issues with product price and returns. More than the problems they have with the checkout procedure, they have trouble confirming the product they want to buy With all of this in mind, we created the application to ensure that the client purchases the goods satisfactorily and that the vendor has access to a market.
       </div>
     </div>
-      <img class="image-slab" width="100%" src="../assets/eldenringposter.png" alt="imageslab">
+    <img class="image-slab" width="100%" src="../assets/grocer/grocerillus.png" alt="imageslab">
     <div class="info">
-      <div class="topic">Proposal</div>
+      <div class="topic">Solution</div>
       <div class="newinfo">
-        We noticed dog owners usually have a problem finding pet sitters when they have travel plans. As an exploratory research, we interviewed pet owners to confirm the problem and learn about their pain-points in general.<br/><br/>
-By interviewing different owners, we learned that trading dog sitting duties with another local owner is the most comfortable solution. But due to the lack of connections, the pet sitting problem is most salient among newly-became and newly-moved dog owners. On the other hand, experienced local owners also have trouble expanding their limited connections.
+        
       </div>
     </div>
     <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
