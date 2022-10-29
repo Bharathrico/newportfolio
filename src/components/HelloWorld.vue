@@ -3,7 +3,7 @@
     <span style="font-size: 3vh; color: #aaaaaa;"> Bharath Ganesh</span>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
+    <div class="textspace"><div class="topic">Spacemerch</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
     <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
   <div class="card">
@@ -11,11 +11,11 @@
     <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Elden Ring</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
+    <div class="textspace"><div class="topic">Other works</div><div class="info"> I have committed my initiatives towards creating and researching more graphic design disciplines. To get a sense of my previous projects, go here. </div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
     <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
   </div>
   <div class="about-card">
-    <router-link to="/about" class="moreinfo"> About</router-link>
+    <router-link to="/about" class="moreinfo" style="font-size:1.7vmax; font-weight: 700;"> About</router-link>
   </div>
 </template>
 
@@ -35,7 +35,6 @@ export default {
 {
   width: 100%;
   height: 20vh;
-  font-size: 1.5vmax;
   display: flex;
   align-items: center;
   justify-content:flex-start;
@@ -130,10 +129,9 @@ export default {
 .info
 {
   padding-top: 0.5vh;
-  font-size: 2vmin;
+  font-size: 1.5vmin;
   text-align: left;
   font-weight: 200;
-  font-size: 1.2vmin ;
   line-height: 2.5vmin;
 }
 
@@ -194,9 +192,9 @@ export default {
 }
 .info
 {
-  padding-top: 0.5vh;
-  font-size: 1.2vmax;
-  line-height: 1.5vmax;
+  padding-top: 0.2vh;
+  font-size: 1.3vmax;
+  line-height: 2vmax;
   text-align: left;
 }
 .moreinfo

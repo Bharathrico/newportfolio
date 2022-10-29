@@ -3,6 +3,7 @@ import HelloWorld from '../components/HelloWorld.vue'
 import OtherWorks from '../components/OtherWorks.vue'
 import ProjectPage from '../components/ProjectPage.vue'
 import AboutPage from '../components/AboutPage.vue'
+import ErrorPage from '../components/ErrorPage.vue'
 const routes = [
   {
     path: '/',
@@ -23,6 +24,10 @@ const routes = [
     path: '/about',
     name: 'about',
     component: AboutPage 
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    component: ErrorPage 
   }
 ]
 
