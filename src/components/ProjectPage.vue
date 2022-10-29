@@ -132,6 +132,7 @@ Personal Project in 2 Months</div>
     width:20%;
     height: 100%;
     color: rgb(156, 156, 156);
+    
     /* background-color: black; */
   }
 
@@ -187,6 +188,7 @@ Personal Project in 2 Months</div>
   .topic
   {
     padding-bottom: 5vmin;
+    margin-top: 5vh;
   }
 
   .moreinfo
