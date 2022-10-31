@@ -2,6 +2,7 @@
     <div class="base"></div>
     <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
     <div class="work"><div class="topic">3D animations</div><div class="caption">Created multiple motion graphic animations in blender</div><div class="imageslab"> <iframe class="youtube" src="https://www.youtube.com/embed/w6fMHILG-EU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+    <div class="work"><div class="topic">Title designs</div><div class="caption">Practiced transliteration title works to my mother tongue</div><div class="imageslab"> <img src="../assets/titleworks.png" alt="imageslab"/></div></div>
     <div class="work"><div class="topic">Abstract Arts</div><div class="caption">Experimented and created abstract art in blender tool</div><div class="imageslab"> <img src="../assets/abstract.gif" alt="imageslab"/></div></div>
     <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
     <div class="base"></div>

@@ -33,7 +33,7 @@ Personal Project in 2 Months</div>
     <div class="info">
       <div class="topic">Solution</div>
       <div class="newinfo">
-        
+        Giving the consumer the freedom to select out the products he wants would be one way to address this problem. Additionally, the vendor requires such a perspective in an application to improve the customer-seller relationship along with other facilities to ease the management on both ends.
       </div>
     </div>
     <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>

@@ -4,6 +4,7 @@ import OtherWorks from '../components/OtherWorks.vue'
 import ProjectPage from '../components/ProjectPage.vue'
 import AboutPage from '../components/AboutPage.vue'
 import ErrorPage from '../components/ErrorPage.vue'
+import SpacePage from '../components/SpacePage.vue'
 const routes = [
   {
     path: '/',
@@ -24,6 +25,11 @@ const routes = [
     path: '/about',
     name: 'about',
     component: AboutPage 
+  },
+  {
+    path: '/space',
+    name: 'space',
+    component: SpacePage 
   },
   {
     path: '/:pathMatch(.*)*',
