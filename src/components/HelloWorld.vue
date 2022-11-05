@@ -12,7 +12,7 @@
   </div>
   <div class="card">
     <div class="textspace"><div class="topic">Other works</div><div class="info"> I have committed my initiatives towards creating and researching more graphic design disciplines. To get a sense of my previous projects, go here. </div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
-    <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
+    <div class="imagespace"><img style="width: 100%;" src="../assets/otherworks.png" alt="elden ring"/></div>
   </div>
   <div class="about-card">
     <router-link to="/about" class="moreinfo" style="font-size:1.7vmax; font-weight: 700;"> About</router-link>
