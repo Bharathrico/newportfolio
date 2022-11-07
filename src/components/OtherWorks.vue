@@ -64,6 +64,7 @@
 img
 {
   width: 100%;
+  border-radius: 2%;
 }
 .backbutton
 {
@@ -86,10 +87,7 @@ img
   font-size: 2.5vmin;
   margin-bottom: 2vh;
 }
-img
-{
-  border-radius: 2%;
-}
+
 .youtube
 {
   border-radius: 2%;

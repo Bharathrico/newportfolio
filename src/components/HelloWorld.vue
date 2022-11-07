@@ -4,15 +4,15 @@
   </div>
   <div class="card">
     <div class="textspace"><div class="topic">Spacemerch</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
-    <div class="imagespace"><img style="width: 100%;" src="../assets/eldenringposter.png" alt="elden ring"/></div>
+    <div class="imagespace"><img src="../assets/grocer/grocerillus.png" alt="elden ring"/></div>
   </div>
   <div class="card">
     <div class="textspace"><div class="topic">Grocer Street</div><div class="info">As a part of my practice in UX design, I did this project in the winter of 2022 to design a market for a consumer of groceries. In addition, I performed conducting research, created experiences, and made user interfaces.</div><router-link to="/project" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
-    <div class="imagespace"><img style="width: 100%;" src="../assets/grocer/grocerillus.png" alt="elden ring"/></div>
+    <div class="imagespace"><img src="../assets/grocer/grocerillus.png" alt="elden ring"/></div>
   </div>
   <div class="card">
     <div class="textspace"><div class="topic">Other works</div><div class="info"> I have committed my initiatives towards creating and researching more graphic design disciplines. To get a sense of my previous projects, go here. </div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
-    <div class="imagespace"><img style="width: 100%;" src="../assets/otherworks.png" alt="elden ring"/></div>
+    <div class="imagespace"><img src="../assets/otherworks.png" alt="elden ring"/></div>
   </div>
   <div class="about-card">
     <router-link to="/about" class="moreinfo" style="font-size:1.7vmax; font-weight: 700;"> About</router-link>
@@ -154,14 +154,19 @@ export default {
 
 .imagespace
 {
-  border-radius: 0.5vmin;
-  overflow: hidden;
+  
   width: 40%;
+  overflow: hidden;
   height: 100%;
-  /* background-color: blue; */
+  border-radius: 2%;
 }
 
-@media screen and (orientation: portrait) and (max-width:700px) {
+img
+{
+  height: 100%;
+}
+
+@media screen and (orientation: portrait) and (max-width:1200px) {
   .projectname
 {
    width: 80vw;
@@ -181,11 +186,19 @@ export default {
 }
 .imagespace
 {
+  padding-top: 5vh;
   width: 100%;
-  height: 60%;
+  height: 70%;
+  overflow: hidden;
+  border-radius: 2%;
   /* background-color: blue; */
 }
-
+img
+{
+  width: 100%;
+  height: auto;
+  border-radius: 2%;
+}
 .topic
 {
   font-size: 2vmax;
