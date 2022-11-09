@@ -163,7 +163,8 @@ export default {
 
 img
 {
-  height: 100%;
+  width: 100%;
+  border-radius: 2%;
 }
 
 @media screen and (orientation: portrait) and (max-width:1200px) {
