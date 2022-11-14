@@ -17,8 +17,7 @@ Personal Project in 2 Months</div>
     <div class="info">
       <div class="topic">Problem statement</div>
       <div class="newinfo">
-        There are online shopping applications for purchasing groceries with price tags, but there are also offline vendors who sell at your door or on the street. Given that the application would manage their distribution and management features, an application to sell their items online at the price they specify will help them grow and expand their business.<br/><br/>
-        In order to identify the issues with the current apps and what they needed, we conducted interviews with people who have had a variety of work experiences. We realised that in-person supermarket shopping is preferable to pre-packaged delivery. We addressed this issue by offering hand-selected groceries at the door. Meanwhile, we discovered that most vendors lack the resources necessary to launch an online store. Without any issues, we were able to implement facilities that will help them.
+        There is a increasing number of application for puchashing groceries with price tag. But the vendors have less control over the price and the applications have a weak bridge of connection. Both the customers and the vendors require a stronger bridge of communication for better sales. There is a lack of trust in pre packaged items delivered at doorstep. And also the vendors need a better solution to connect directly with the customer with their limited resources.
       </div>
     </div>
       <img class="image-slab" width="100%" src="../assets/grocer/grocerillus.png" alt="imageslab">
