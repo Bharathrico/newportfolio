@@ -3,8 +3,8 @@
     <span style="font-size: 3vh; color: #aaaaaa;"> Bharath Ganesh</span>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Spacemerch</div><div class="info">For the winter of 2016, my friend Helen and I decided to work together and design a social platform for pet owners. We created the experience flow together, while I was also responsible for crafting the interfaces of our product.</div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
-    <div class="imagespace"><img src="../assets/grocer/grocerillus.png" alt="elden ring"/></div>
+    <div class="textspace"><div class="topic">Spacemerch</div><div class="info"></div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
+    <div class="imagespace"><img src="../assets/grocer/grocerimg.png" alt="elden ring"/></div>
   </div>
   <div class="card">
     <div class="textspace"><div class="topic">Grocer Street</div><div class="info">As a part of my practice in UX design, I did this project in the winter of 2022 to design a market for a consumer of groceries. In addition, I performed conducting research, created experiences, and made user interfaces.</div><router-link to="/project" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
