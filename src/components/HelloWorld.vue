@@ -4,11 +4,11 @@
   </div>
   <div class="card">
     <div class="textspace"><div class="topic">Spacemerch</div><div class="info"></div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
-    <div class="imagespace"><img src="../assets/grocer/grocerimg.png" alt="elden ring"/></div>
+    <div class="imagespace"><img src="../assets/space/spaceillus.png" alt="elden ring"/></div>
   </div>
   <div class="card">
     <div class="textspace"><div class="topic">Grocer Street</div><div class="info">As a part of my practice in UX design, I did this project in the winter of 2022 to design a market for a consumer of groceries. In addition, I performed conducting research, created experiences, and made user interfaces.</div><router-link to="/project" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
-    <div class="imagespace"><img src="../assets/grocer/grocerillus.png" alt="elden ring"/></div>
+    <div class="imagespace"><img src="../assets/grocer/grocerimg.png" alt="elden ring"/></div>
   </div>
   <div class="card">
     <div class="textspace"><div class="topic">Other works</div><div class="info"> I have committed my initiatives towards creating and researching more graphic design disciplines. To get a sense of my previous projects, go here. </div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
