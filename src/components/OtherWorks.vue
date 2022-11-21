@@ -3,7 +3,7 @@
     <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
     <div class="work"><div class="topic">3D animations</div><div class="caption">Motion graphics and animations with blender</div><div class="imageslab"> <iframe class="youtube" src="https://www.youtube.com/embed/w6fMHILG-EU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
     <div class="work"><div class="topic">UI redesigns</div><div class="caption">Studied UI designs and remade</div><div class="imageslab"> <img src="../assets/whatsapp.png" alt="imageslab"/></div></div>
-    <div class="work"><div class="topic">Title designs practice</div><div class="caption">Practiced title design in tamil language</div><div class="imageslab"> <img src="../assets/titleworks.png" alt="imageslab"/></div></div>
+    <div class="work"><div class="topic">Typography design</div><div class="caption">Practiced title design in tamil language</div><div class="imageslab"> <img src="../assets/titleworks.png" alt="imageslab"/></div></div>
     <div class="work"><div class="topic">Poster designs</div><div class="caption">Passion project of poster design</div><div class="imageslab"> <img src="../assets/posterworks.png" alt="imageslab"/></div></div>
     <div class="work"><div class="topic">Abstract arts</div><div class="caption">Created with blender and photoshop</div><div class="imageslab"> <img src="../assets/abstract.gif" alt="imageslab"/></div></div>
     <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
