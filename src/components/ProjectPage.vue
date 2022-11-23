@@ -28,7 +28,7 @@ Personal Project in 2 Months</div>
         According to the data, people favour an easy-to-use buying process over one that requires more effort. Customers also displayed some issues with product price and returns. More than the problems they have with the checkout procedure, they have trouble confirming the product they want to buy With all of this in mind, we created the application to ensure that the client purchases the goods satisfactorily and that the vendor has access to a market.
       </div>
     </div>
-    <img class="image-slab" width="100%" src="../assets/grocer/grocerillus.png" alt="imageslab">
+    <img class="image-slab" width="100%" src="../assets/grocer/flowimage.png" alt="imageslab">
     <div class="info">
       <div class="topic">Solution</div>
       <div class="newinfo">
