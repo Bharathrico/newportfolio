@@ -3,7 +3,7 @@
     <span style="font-size: 3vh; color: #aaaaaa;"> Bharath Ganesh</span>
   </div>
   <div class="card">
-    <div class="textspace"><div class="topic">Spacemerch</div><div class="info">As a part of team space corp, we built a merchandise application to sell space-themed merchandise. However, it needed UX and market research to go further. I worked with Deepak Praveen on this project from Aug 2022 to Oct 2022.</div><router-link to="/work" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
+    <div class="textspace"><div class="topic">Spacemerch</div><div class="info">As a part of team space corp, we built a merchandise application to sell space-themed merchandise. However, it needed UX and market research to go further. I worked with Deepak Praveen on this project from Aug 2022 to Oct 2022.</div><router-link to="/space" class="moreinfo"><div class="static-dot"><div class="growing-dot"></div></div> More</router-link></div>
     <div class="imagespace"><img src="../assets/space/spaceillus.png" alt="elden ring"/></div>
   </div>
   <div class="card">
