@@ -2,39 +2,18 @@
   <div class="base"></div>
  <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
  <div class="title">
-   <span style="font-size: 3vh;"> Grocer Street </span>
+   <span style="font-size: 3vh;"> Space Merch </span>
  </div>
  <div class="info">
-   <div class="location">Winter 2022<br/>
+   <div class="location">Fall 2022<br/>
 Associated With Deepak Praveen<br/>
 User Interface and User Experience researcher<br/>
-Personal Project in 2 Months</div>
+3 Months</div>
    <div class="newinfo">
-     Grocer Street is an application that serves both vendors and consumers in improving the grocery purchasing experience by delivering features that are blended with the real-world shopping experience. Any fruit or vegetable that a customer purchases using this application will have their involvement, enhancing their shopping experience. In this project, I worked as a UI/UX researcher and designer, with my partner assisting me with brainstorming and user flow.
+    Working as a team, we researched and created a User Interface and Experience for a merchandising application focusing on space-themed apparel. My concentration is mainly on competitor analysis, Primary research, User Interface, and design systems.
    </div>
  </div>
-   <img class="image-slab" width="100%" src="../assets/grocer/grocerstreetpage1.png" alt="imageslab">
- <div class="info">
-   <div class="topic">Problem statement</div>
-   <div class="newinfo">
-     There is a increasing number of application for puchashing groceries with price tag. But the vendors have less control over the price and the applications have a weak bridge of connection. Both the customers and the vendors require a stronger bridge of communication for better sales. There is a lack of trust in pre packaged items delivered at doorstep. And also the vendors need a better solution to connect directly with the customer with their limited resources.
-   </div>
- </div>
-   <img class="image-slab" width="100%" src="../assets/grocer/grocerillus.png" alt="imageslab">
- <div class="info">
-   <div class="topic">Research</div>
-   <div class="newinfo">
-     This improved our project toward pleasing the customer, even if he still considers internet shopping. We conducted secondary research on blogs and forums to learn more about the viewpoint of vendors. The results showed that vendors want to have some flexibility when it comes to third-party applications, such as when it comes to payment and delivery options.<br/><br/>
-     According to the data, people favour an easy-to-use buying process over one that requires more effort. Customers also displayed some issues with product price and returns. More than the problems they have with the checkout procedure, they have trouble confirming the product they want to buy With all of this in mind, we created the application to ensure that the client purchases the goods satisfactorily and that the vendor has access to a market.
-   </div>
- </div>
- <img class="image-slab" width="100%" src="../assets/grocer/flowimage.png" alt="imageslab">
- <div class="info">
-   <div class="topic">Solution</div>
-   <div class="newinfo">
-     Giving the consumer the freedom to select out the products he wants would be one way to address this problem. Additionally, the vendor requires such a perspective in an application to improve the customer-seller relationship along with other facilities to ease the management on both ends.
-   </div>
- </div>
+   <img class="image-slab" width="100%" src="../assets/space/spacebanner.png" alt="imageslab">
  <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
  <div class="base"></div>
 </template>
