@@ -3,6 +3,7 @@
  <div class="backbutton"><router-link to="/" class="moreinfo">← Back</router-link></div>
  <div class="title">
    <span style="font-size: 3vh;"> Space Merch </span>
+   <a>more</a>
  </div>
  <div class="info">
    <div class="location">Fall 2022<br/>
@@ -63,7 +64,7 @@ transition: all 0.5s ease;
 
 .title
 {
- width: 60vw;
+ width: 100%;
  padding-top: 5vh;
  padding-bottom: 5vh;
  height: auto;
